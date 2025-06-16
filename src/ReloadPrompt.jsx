@@ -11,7 +11,7 @@ export default function ReloadPrompt() {
       r && setInterval(() => r.update(), 60000); // every 1 minute for dev
     },
     onRegisterError(error) {
-      console.error('[PWA] Registration error:', error);
+      console.error('[PWA] Registration error::', error);
     },
   });
 
